@@ -1,5 +1,5 @@
 const express = require('express');
-const userRoutes = require('./ROUTER/user');
+const userRoutes = require('./ROUTER/users');
 const authRoutes = require('./ROUTER/auth');
 const dataRoutes = require('./ROUTER/data');
 const middlewares = require('./middleware')();

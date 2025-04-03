@@ -3,8 +3,7 @@ const route = express.Router();
 
 let users = [
     { id: 1, username: 'admin', name: 'Obama' },
-    { id: 2, username: 'user1', name: 'Trum' },
-    { id: 3, username: 'user2', name: 'J97' }
+    { id: 2, username: 'user1', name: 'Trum' }
 ]
 
 route.post('/users', function (req, res) {

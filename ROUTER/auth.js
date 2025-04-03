@@ -4,8 +4,7 @@ const bcrypt = require('bcryptjs');
 
 let users = [
     { username: 'admin', password: '$2a$12$4uCFfZcx2aUxVXJ3THID2uoU0qM/OhI3E7VHkDqSzTd7guKqzS2Uu', role: 'admin' },
-    { username: 'user1', password: '$2a$12$6isIU5BO1GjzCjxPhkrhMeOykd3J3noVbBvMbq8fuzgs5/vHXtMve', role: 'user' },
-    { username: 'user2', password: '$2a$12$6isIU5BO1GjzCjxPhkrhMeOykd3J3noVbBvMbq8fuzgs5/vHXtMve', role: 'user' }
+    { username: 'user1', password: '$2a$12$6isIU5BO1GjzCjxPhkrhMeOykd3J3noVbBvMbq8fuzgs5/vHXtMve', role: 'user' }
 ]
 const route = express.Router();
 const JWT_SECRET = 'mySecret';
