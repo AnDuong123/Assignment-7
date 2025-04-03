@@ -1,7 +1,7 @@
 const express = require('express');
 const userRoutes = require('./ROUTER/users');
-const authRoutes = require('./ROUTER/auth');
-const dataRoutes = require('./ROUTER/data');
+const authRoutes = require('./ROUTER/authentication');
+const dataRoutes = require('./ROUTER/getdata');
 const middlewares = require('./middleware')();
 
 const app = express();
